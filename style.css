@@ -1,0 +1,34 @@
+@keyframes AutoChangingColor {
+  0% {
+    background-color: #195034;
+  }
+
+  25% {
+    background-color: #29c979;
+  }
+
+  50% {
+    background-color: #269c61;
+  }
+
+  75% {
+    background-color: #1e6843;
+  }
+
+  100% {
+    background-color: #195034;
+  }
+}
+
+p {
+  font-size: 36px;
+}
+
+.blank {
+  padding-bottom: 150px;
+}
+
+.hr2 {
+  padding-bottom: 5px;
+  animation: AutoChangingColor 5s infinite;
+}
